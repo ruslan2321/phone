@@ -1,3 +1,8 @@
+
+body{
+    overflow-x:hidden ;
+    background: -webkit-linear-gradient(90deg, #a2a49f,#e0d0c4,#f1dac4);background: linear-gradient(90deg, #a2a49f,#e0d0c4,#f1dac4);
+}
 .main{
     background: -webkit-linear-gradient(90deg, #f2e3e3,#f9f8fb,#e0d9f2);background: linear-gradient(90deg, #f2e3e3,#f9f8fb,#e0d9f2);
     position: relative;
@@ -42,4 +47,21 @@
 .main:hover{
     transition: 0.5s ease-out;
     box-shadow: 2px 2px 15px black;
+}
+p{
+    position: relative;
+    left: 34%;
+    top: 200px;
+    font-family: 'Roboto', sans-serif;
+    font-size:30px ;
+    animation-name: text;
+    animation-delay: 1s;
+    animation-duration: 1s;
+}
+@keyframes text {
+    from{
+        left: 20%;
+    }
+    to{
+    }
 }
