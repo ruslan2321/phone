@@ -11,6 +11,7 @@
     border-bottom: 20px solid black;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    transition: 0.5s ease-out;
 }
 .home{
     width: 20px;
@@ -40,6 +41,5 @@
 
 }
 .main:hover{
-    transition: 0.5s ease-out;
     box-shadow: 2px 2px 15px black;
 }
